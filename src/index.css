@@ -1,1 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto+Mono&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
 
+body {
+  background-color: #1b1b1b;
+}
+
+#root {
+  background-color: #1b1b1b;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c1f5ff;
+  border-radius: .3em;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #181818;
+}
