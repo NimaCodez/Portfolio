@@ -21,6 +21,7 @@
     font-weight: bolder;
     width: 100%;
     padding: 0 0;
+    text-shadow: 0 0 100px #fcfcf6;
 }
 
 .highlight {
@@ -32,6 +33,7 @@
 .highlight-fill {
     color: #2AACFF;
     font-weight: 600;
+    text-shadow: 0 0 30px #2AACFF;
 }
 
 .line {

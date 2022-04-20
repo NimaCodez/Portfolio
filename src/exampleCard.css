@@ -1,0 +1,33 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1.3em;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.card > a > img {
+    background-size: cover;
+}
+
+.ctitle {
+    display: none;
+}
+
+.ctext {
+    display: none;
+}
+
+#examples {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #d4d4d4;
+    text-shadow: 0 0 100px #fcfcf6;
+    margin-top: 4rem;
+}
+
+.c-container {
+    margin-top: 1rem;
+    text-align: center;
+}
