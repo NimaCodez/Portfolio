@@ -4,6 +4,8 @@ import ContentCard from './components/contentcard';
 import Hero from './components/hero';
 import 'aos/dist/aos.css';
 import Aos from 'aos';
+import WhyWebsite from './components/whyWebsite';
+
 
 function App() {  
   
@@ -27,10 +29,11 @@ function App() {
   ]
   Aos.init({
     startEvent: 'DOMContentLoaded',
-    mirror: true,
+    mirror: false,
     duration: 600,
-    offset: 3
+    offset: 10
   })
+
   return (
     <div className="App">
       <Navbar />
@@ -40,6 +43,7 @@ function App() {
           <ContentCard key={content.Id} header={content.header} text={content.text} imgPath={content.imgPath} />
         ))
       }
+      <WhyWebsite />
     </div>
   );
 }

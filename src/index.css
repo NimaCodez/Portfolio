@@ -6,6 +6,11 @@
   font-family: 'Poppins';
 }
 
+html {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   background-color: #1b1b1b;
 }

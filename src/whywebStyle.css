@@ -1,0 +1,64 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    background-color: blue;
+}
+
+
+.text {
+    color: #d4d4d4;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 1.5em 0;
+    width: 70%;
+}
+
+.whyweb {
+    font-size: 5rem;
+    font-weight: bolder;
+    width: 100%;
+    padding: 0 0;
+}
+
+.highlight {
+    color: #4FC8E2;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.highlight-fill {
+    color: #2AACFF;
+    font-weight: 600;
+}
+
+.line {
+    width: 2px;
+    position: relative;
+    right: -50%;
+}
+
+.con {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p.description {
+    width: 50%;
+    line-height: 2em;
+}
+
+p.desc {
+    line-height: 2em;
+    width: 100%;
+}
+
+p.bdesc {
+    width: 48%;
+    line-height: 2em;
+}
