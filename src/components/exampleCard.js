@@ -8,22 +8,22 @@ const Card = () => {
             title: 'recipe Store',
             text: 'Where you can search ingradient and get food...',
             imgPath: `${process.env.PUBLIC_URL}/fortmini.png`,
-            href: 'https://foodygoods.netlify.app'
-        },
+            href: 'https://fortnitestore.netlify.app'
+                },
         {
             Id: 2,
             title: 'Fortnite Store',
             text: 'Where you can search upcoming items in Fortnite...',
-            imgPath: `${process.env.PUBLIC_URL}/`,
-            href: 'https://fortnitestore.netlify.app'
-        },
-        {
-            Id: 3,
-            title: 'Coming Soon...',
-            text: 'Where you can search books...',
-            imgPath: `${process.env.PUBLIC_URL}/`,
-            href: '#examples'
-        },
+            imgPath: `${process.env.PUBLIC_URL}/fgmini.png`,
+            href: 'https://foodygoods.netlify.app'
+        }
+        // {
+        //     Id: 3,
+        //     title: 'Coming Soon...',
+        //     text: 'Where you can search books...',
+        //     imgPath: `${process.env.PUBLIC_URL}/`,
+        //     href: '#examples'
+        // },
     ]
 
     return (

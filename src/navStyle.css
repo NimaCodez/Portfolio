@@ -21,6 +21,10 @@ header {
     font-weight: bold;
 }
 
+.mobile-nav-btn {
+    display: none;
+}
+
 .list-item {
     margin: 0 1em;
     list-style-type: none;
@@ -30,3 +34,58 @@ header {
     color: #4FC8E2;
     font-weight: 600;
 }
+
+.mobile-wrapper {
+    display: none;
+}
+
+.mobile-nav.open {
+    display: block;
+}
+
+.mobile-nav.close {
+    display: none;
+}
+
+@media (min-width: 240px) and (max-width: 636px) {
+    .nav-menu {
+        display: none;
+    }
+    
+    .mobile-nav {
+        background-color: #181818;
+        width: 65%;
+        min-height: 100%;
+        z-index: 100;
+    }
+
+    .mobile-wrapper {
+        display: block;
+    }
+    
+    i {
+        color: #2AACFF;
+        font-size: 2.1rem;
+        font-weight: 400;
+    }
+    
+    .m-nav-menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .m-list-item {
+        margin: 2em 0;
+        list-style-type: none;
+    }
+
+    .m-nav-link {
+        text-decoration: none;
+        color: #4FC8E2;
+        font-weight: 500;
+    }
+
+}
+

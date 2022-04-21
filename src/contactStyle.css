@@ -1,0 +1,54 @@
+#contact {
+    margin-top: 6em;
+    text-align: center;
+}
+
+.section-text {
+    color: #d4d4d4;
+    text-shadow: 0 0 100px #fcfcf6;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.co-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4em 0;
+    padding: 2em 4em;
+}
+
+.contact-card {
+    background-color: #654fef;
+    color: #fff;
+    padding: .8em 1.6em;
+    border-radius: .4em;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+@media (min-width: 1700px) and (max-width: 2100px) {
+    #contact {
+        margin-top: 9em;
+        text-align: center;
+    }
+    
+    .section-text {
+        color: #d4d4d4;
+        text-shadow: 0 0 100px #fcfcf6;
+        font-weight: 800;
+        font-size: 4.5rem;
+    }
+    
+    .contact-card {
+        background-color: #654fef;
+        color: #fff;
+        padding: 1.4em 1.8em;
+        border-radius: .4em;
+    }
+}
+
+

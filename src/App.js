@@ -6,6 +6,7 @@ import 'aos/dist/aos.css';
 import Aos from 'aos';
 import WhyWebsite from './components/whyWebsite';
 import Card from './components/exampleCard';
+import Contact from './components/contact';
 
 function App() {
 
@@ -16,13 +17,29 @@ function App() {
     offset: 10
   })
 
+  const toggler = () => {
+    const menu = document.querySelector('.mobile-nav');
+    
+    let classlist = menu.classList;
+    if (classlist[1] === 'close') {
+      classlist.replace('close', 'open');
+    }
+    
+    else if (classlist[1] === 'open') {
+      classlist.replace('open', 'close');
+    }
+    
+    
+  }
+
   return (
     <div className="App">
-      <Navbar />
+      <Navbar toggler={toggler} />
       <Hero />
       <ContentCard />
       <WhyWebsite />
       <Card />
+      <Contact/>
     </div>
   );
 }
