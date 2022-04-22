@@ -1,5 +1,5 @@
 import React from 'react';
-import '../navStyle.css';
+import '../styles/navStyle.css';
 
 const Navbar = ({ toggler }) => {
     return (

@@ -7,7 +7,7 @@
     color: #d4d4d4;
     text-shadow: 0 0 100px #fcfcf6;
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 3.4rem;
 }
 
 .co-container {
@@ -30,7 +30,12 @@ a {
     text-decoration: none;
 }
 
-@media (min-width: 1700px) and (max-width: 2100px) {
+i {
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+@media (min-width: 1313px) and (max-width: 2100px) {
     #contact {
         margin-top: 9em;
         text-align: center;
@@ -51,4 +56,24 @@ a {
     }
 }
 
+@media (min-width: 240px) and (max-width: 790px) {
+    
+    .co-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 4em 0;
+        padding: 2em 4em;
+    }
+    .contact-card {
+        background-color: #654fef;
+        color: #fff;
+        width: 80%;
+        padding: 1.4em 1.8em;
+        margin: 1.6em 0;
+        border-radius: .4em;
+    }
+
+}
 

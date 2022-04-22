@@ -1,5 +1,5 @@
 import React from 'react';
-import '../contactStyle.css';
+import '../styles/contactStyle.css';
 
 const Contact = () => {
 
@@ -36,8 +36,8 @@ const Contact = () => {
             <div className='co-container'>
                 {
                     ContactOptions.map(co => (
-                        <a href={co.link}>
-                            <div className='contact-card' key={co.Id}>
+                        <a href={co.link} className='contact-card'>
+                            <div className='card-text' key={co.Id}>
                                 <i className={co.Icon}></i> {co.title}
                             </div>
                         </a>

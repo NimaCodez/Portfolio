@@ -1,5 +1,5 @@
 import React from 'react';
-import '../exampleCard.css';
+import '../styles/exampleCard.css';
 
 const Card = () => {
     const data = [

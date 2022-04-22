@@ -1,0 +1,94 @@
+.hero {
+    margin-top: 3em;
+    padding: 2em 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-text {
+    color: #d4d4d4;
+    font-size: 4rem;
+    line-height: 1.8em;
+    position: relative;
+    top: -5.5rem;
+}
+
+.myname {
+    color: #4FC8E2;
+    font-weight: 800;
+    text-shadow: 0 0 30px #4FC8E2;
+    animation: blob 2s infinite;
+}
+
+img {
+    width: 20em;
+    height: 90%;
+}
+
+.hoze {
+    color: #70CDFF;
+}
+
+@keyframes blob {
+    0% {
+        text-shadow: none;
+    }
+    
+    25% {
+        text-shadow: 0 0 3px #70CDFF;
+    }
+    
+    50% {
+        text-shadow: 0 0 30px #4FC8E2;
+    }
+    
+    75% {
+        text-shadow: 0 0 7px #4FC8E2;
+    }
+    
+    100% {
+        text-shadow: 0 0 30px #4FC8E2;
+    }
+}
+
+@media (min-width: 240px) and (max-width: 1100px) {
+    .hero {
+        margin-top: 5em;
+        padding: 2em 4em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-text {
+        color: #d4d4d4;
+        font-size: 3.2rem;
+        line-height: 1.8em;
+    }
+}
+
+@media (min-width: 1570px) and (max-width: 2000px) {
+    .hero {
+        margin-top: 5em;
+        padding: 2em 4em;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+        top: -5.5rem;
+    }
+    .hero-text {
+        color: #d4d4d4;
+        font-size: 4.4rem;
+        line-height: 1.8em;
+    }
+}
+
+
+@media (min-width: 1700px) and (max-width: 2000px) {
+    img {
+        width: 25em;
+        height: 90%;
+    }
+}

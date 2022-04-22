@@ -63,3 +63,39 @@ p.bdesc {
     width: 48%;
     line-height: 2em;
 }
+
+@media (min-width: 240px) and (max-width: 768px) {
+    
+    .whyweb {
+        font-size: 4.2rem;
+        font-weight: bolder;
+        width: 100%;
+        padding: 0 0;
+        text-shadow: 0 0 100px #fcfcf6;
+    }
+    .line {
+        width: 2px;
+        position: relative;
+        right: -50%;
+        margin-top: 2rem;
+    }
+    .m-text {
+        text-align: left;
+        color: #d4d4d4;
+        font-weight: 500;
+        font-size: 1.4rem;
+        padding: 1.5em 0;
+    }
+    p.description {
+        width: 70%;
+        line-height: 2em;
+    }
+    p.bdesc {
+        width: 70%;
+        line-height: 2em;
+    }
+    p.desc {
+        line-height: 2em;
+        width: 70%;
+    }
+}

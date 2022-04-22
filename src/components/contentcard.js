@@ -1,5 +1,5 @@
 import React from 'react';
-import '../contentCardStyle.css';
+import '../styles/contentCardStyle.css';
 
 const ContentCard = () => {
 
@@ -34,7 +34,7 @@ const ContentCard = () => {
                             <p className='con-text'>{content.text}</p>
                         </div>
                         <div className='image-container'>
-                            <img data-aos="fade-down" data-aos-duration="1450" className='con-img' src={content.imgPath} alt='illustartion' />
+                            <img data-aos="fade-down" data-aos-duration="1400" className='con-img' src={content.imgPath} alt='illustartion' />
                         </div>
                     </div>
                 ))
