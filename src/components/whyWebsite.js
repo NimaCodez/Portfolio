@@ -15,7 +15,7 @@ const WhyWebsite = () => {
                     Today Everything is <span className='highlight'>Online!</span><br />
                     even emotions and <span className='highlight-fill'>90% </span>of other
                     stuff.. So What is better than an Online Shop
-                    or bussiness
+                    or business
                 </p>
             </div>
             <div className='middle-part'>
@@ -23,7 +23,7 @@ const WhyWebsite = () => {
             </div>
             <div className='con'>
                 <p className='desc text m-text'>
-                    Also Another benefit of online bussiness<br/>
+                    Also Another benefit of an online business, <br/>
                     is a <span className='highlight-fill'>low-need</span> physical Department
                 </p>
             </div>

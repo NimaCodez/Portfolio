@@ -7,6 +7,7 @@ import Aos from 'aos';
 import WhyWebsite from './components/whyWebsite';
 import Card from './components/exampleCard';
 import Contact from './components/contact';
+import BrandingCard from './components/branding';
 
 function App() {
 
@@ -39,6 +40,7 @@ function App() {
       <ContentCard />
       <WhyWebsite />
       <Card />
+      <BrandingCard />
       <Contact/>
     </div>
   );

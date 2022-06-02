@@ -1,42 +1,48 @@
-.card-container {
+.b-container {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.b-card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-template-rows: repeat(auto-fit, minmax(250px, 1fr));
+    grid-template-rows: repeat(auto-fit, minmax(300px, 1fr));
     grid-gap: 1.3em;
     text-align: center;
     margin-top: 7rem;
 }
 
-.card > a > img {
+.b-card > a > img {
     background-size: cover;
+    border-radius: 50%;
+    height: 17rem;
+    width: 17rem;
 }
 
-.ctitle {
-    display: none;
-}
-
-.ctext {
+.b-title {
+    margin-top: .8em;
+    font-size: 2.3rem;
     color: #d4d4d4;
-    font-size: .8rem;
+}
+
+.b-text {
+    font-size: 1.2rem;
+    color: #d4d4d4;
     width: 80%;
     margin: auto auto;
 }
 
-.ctext-wrap {
+.b-text-warp{
+    margin-top: 1.5em;
     text-align: center;
 }
 
-#examples {
+#branding {
     font-size: 3.4rem;
     font-weight: 800;
     color: #d4d4d4;
     text-shadow: 0 0 100px #fcfcf6;
     margin-top: 4rem;
-}
-
-.c-container {
-    margin-top: 9rem;
-    text-align: center;
 }
 
 @media (min-width: 240px) and (max-width: 409px) {

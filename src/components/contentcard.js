@@ -16,7 +16,7 @@ const ContentCard = () => {
             Id: 2,
             header: 'Back-end, The Barin!',
             text: `Done! How your website dares to break when
-          you're using Node.js with Express.js for the
+          you're using Node.js with Express.js or ASP.NET Core for the
           brain?`,
             imgPath: `${process.env.PUBLIC_URL}/brainminified.png`,
         }

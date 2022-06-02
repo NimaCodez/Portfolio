@@ -6,14 +6,14 @@ const Card = () => {
         {
             Id: 1,
             title: 'recipe Store',
-            text: 'Where you can search ingradient and get food...',
+            text: 'Where you can search upcoming items in Fortnite. (click the image)',
             imgPath: `${process.env.PUBLIC_URL}/fortmini.png`,
             href: 'https://fortnitestore.netlify.app'
-                },
+        },
         {
             Id: 2,
             title: 'Fortnite Store',
-            text: 'Where you can search upcoming items in Fortnite...',
+            text: 'Where you can search ingradient and get food. (click the image)',
             imgPath: `${process.env.PUBLIC_URL}/fgmini.png`,
             href: 'https://foodygoods.netlify.app'
         }
@@ -36,8 +36,8 @@ const Card = () => {
                             <div className="ctitle">{dat.title}</div>
                             <a href={dat.href}>
                                 <img src={dat.imgPath} alt='example' />
+                                <div className="ctext-wrap"><p className='ctext'>{dat.text}</p></div>
                             </a>
-                            <div className="ctext">{dat.text}</div>
                         </div>
                     ))
                 }
